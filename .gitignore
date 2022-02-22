@@ -1,0 +1,7 @@
+# Folders
+/white_noise_env
+
+# Compilers
+__pycache__/
+*.py[cod]
+*$py.class
