@@ -15,13 +15,13 @@ def white_noise(
   h = 200,
   iframes = 10,
   animation_name = 'animation'):
-  # Create numpy random matrix with photo pixel data 
+  # Create numpy random matrix with photo pixel data
   au = (1. + 5. ** .5) / 2.
   white_noise_image = np.random.randint(low = 10, high = 245, size = (h, int(h * au), 3, iframes))
 
   # Initialize Figure
   fig, ax = plt.subplots()
-  plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
+  plt.subplots_adjust(left=0, right=1, top=1, bottom=0, wspace=0, hspace=0)
   ax.axis('off')
   ax.margins(0.)
   #ax.spines[['right', 'left']].set_visible(False)
@@ -45,5 +45,5 @@ def white_noise(
     fps=60,
     #bbox_inches='tight',
     #savefig_kwargs = {'pad_inches' : 0.,
-    #                  'bbox_inches' : 'tight'}
+    #}
     )
