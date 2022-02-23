@@ -1,3 +1,7 @@
+# Files
+test.py
+*.gif
+
 # Folders
 /white_noise_env
 
