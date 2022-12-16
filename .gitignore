@@ -4,6 +4,7 @@ test.py
 
 # Folders
 /white_noise_env
+/white_noise
 
 # Compilers
 __pycache__/
