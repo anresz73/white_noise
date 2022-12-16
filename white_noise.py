@@ -1,4 +1,4 @@
-#!white_noise_env/bin/python3
+#!white_noise/bin/python3
 # -*- coding: utf-8 -*-
 #
 # Created on 2022/02/22
@@ -53,7 +53,6 @@ def white_noise(
 
   #Save gif
   file_name = Path(__file__).resolve().parent / file_name
-  print(file_name.with_suffix('.gif'))
   anim.save(
     file_name.with_suffix('.gif'),
     writer='pillow',
